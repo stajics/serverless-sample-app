@@ -1,0 +1,7 @@
+{
+  "name": "serverless-sample-app",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "author": "stajics <stajic.srdjan92@gmail.com>",
+  "license": "MIT"
+}
