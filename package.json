@@ -3,5 +3,36 @@
   "version": "1.0.0",
   "main": "handler.js",
   "author": "stajics <stajic.srdjan92@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ],
+    "rules": {
+      "consistent-return": "off",
+      "no-shadow": "off",
+      "no-param-reassign": "off",
+      "no-console": "off",
+      "no-underscore-dangle": "off",
+      "no-new": "off",
+      "strict": "off"
+    },
+    "globals": {
+      "test": "true",
+      "fail": "true",
+      "expect": "true",
+      "beforeAll": "true",
+      "beforeEach": "true",
+      "describe": "true",
+      "jest": "true",
+      "__dirname": "true"
+    }
+  }
 }
