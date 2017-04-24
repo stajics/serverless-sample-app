@@ -10,6 +10,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
+    "jest": "^19.0.2",
     "serverless-offline": "^3.13.3"
   },
   "eslintConfig": {
@@ -36,7 +37,14 @@
       "__dirname": "true"
     }
   },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "handlers/*.js"
+    ]
+  },
   "scripts": {
-    "start": "serverless offline start"
+    "start": "serverless offline start",
+    "test": "NODE_ENV=test jest --coverage --verbose --forceExit"
   }
 }

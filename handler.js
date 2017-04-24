@@ -1,6 +1,9 @@
 'use strict';
 
+const sampleHandler = require('./handlers/sampleHandler');
+
 module.exports.hello = (event, context, callback) => {
+  console.log(sampleHandler(1, 3));
   const response = {
     statusCode: 200,
     body: JSON.stringify({
