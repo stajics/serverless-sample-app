@@ -3,7 +3,7 @@ node_modules
 jspm_packages
 
 # test coverage directories
-.coverage
+coverage
 
 # Serverless directories
 .serverless
