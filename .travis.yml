@@ -1,4 +1,13 @@
 language: node_js
 node_js:
-  - "iojs"
-  - "6"
+  - "6.10.2"
+
+env:
+  global:
+    - AWS_REGION=eu-west-1
+    - SLS_DEBUG=true
+
+before_install:
+  - npm i -g serverless
+
+script: ./deploy.sh
