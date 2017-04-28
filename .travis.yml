@@ -11,4 +11,9 @@ before_install:
   - npm i -g serverless
   - chmod +x deploy.sh
 
-script: ./deploy.sh
+deploy:
+  provider: script
+  script: ./deploy.sh
+  on:
+    branch: master
+    branch: develop

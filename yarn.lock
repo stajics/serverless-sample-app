@@ -2466,9 +2466,9 @@ sax@^1.2.1:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
-serverless-offline@^3.13.3:
-  version "3.13.3"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.13.3.tgz#7b922082d14de8bb6981e04ae583a43967314689"
+serverless-offline@^3.13.5:
+  version "3.13.5"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.13.5.tgz#426f27fc59d1e943324d2d2fc7b0ff64d11041ff"
   dependencies:
     babel-register "^6.18.0"
     boom "^4.2.0"
