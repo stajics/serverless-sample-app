@@ -45,6 +45,6 @@
   },
   "scripts": {
     "start": "serverless offline start",
-    "test": "NODE_ENV=test jest --coverage --verbose --forceExit"
+    "test": "NODE_ENV=test jest --coverage --verbose"
   }
 }
