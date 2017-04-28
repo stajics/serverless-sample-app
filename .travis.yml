@@ -9,7 +9,6 @@ env:
 
 before_install:
   - npm i -g serverless
-  - chmod +x deploy.sh
 
 deploy:
   provider: script
