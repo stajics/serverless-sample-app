@@ -45,5 +45,8 @@
   "scripts": {
     "start": "serverless offline start",
     "test": "NODE_ENV=test jest --coverage --verbose"
+  },
+  "dependencies": {
+    "serverless-offline": "^3.13.5"
   }
 }
