@@ -10,6 +10,9 @@ env:
 before_install:
   - npm i -g serverless
 
+before_deploy:
+  - yarn
+
 deploy:
   provider: script
   script: ./deploy.sh
