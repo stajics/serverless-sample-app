@@ -11,4 +11,5 @@ if [ -z ${STAGE+x} ]; then
   exit 0;
 fi
 npm prune --production  #remove devDependencies
+yarn
 sls deploy --stage $STAGE --region $AWS_REGION
